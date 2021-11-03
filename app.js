@@ -47,7 +47,7 @@ let minAge = 1;
         alert("Type Your Age!")
     }else if(maxinput > maxAge || maxinput < 1){
      alert("What The fUCk!")
-     
+     maxpersonAge.value = '';
  }else{
     let maxDistance = 25;
     let ageCalc =  0.4 * maxinput;
@@ -69,6 +69,7 @@ let minAge = 1;
         alert("Type your age!")
     }else if(averageinput > maxAge || averageinput < 1){
      alert("What The fUCk!")
+     averpersonAge.value = '';
  }else{
     let averageDistance = 18.5;
     let averageAgeCalc =  0.3 * averageinput;
@@ -91,6 +92,7 @@ let minAge = 1;
         alert("Type Your Age!")
     }else if(mininput > maxAge || mininput < 1){
      alert("What The fUCk!")
+     minpersonAge.value = '';
  }else{
     let minDistance = 15;
     let minageCalc =  0.25 * mininput;
