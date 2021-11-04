@@ -46,7 +46,18 @@ body{
     margin-top: 8px;
 }
 
+.spectacle{
+    width: 280px;
+    margin: 20px 0;
+    padding: 5px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
 .taker{
+  width: 200px;
   margin: 20px 0;
   padding: 5px 25px;
   border-radius: 10px;
@@ -97,3 +108,16 @@ body{
    font-size: 1.5rem;
    
 }
+
+/*responsive*/
+
+ @media only screen and (max-width: 600px){
+    #he{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+ }
+
+/*responsive*/
